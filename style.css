@@ -5,7 +5,7 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.main{
+#entrada{
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
@@ -21,17 +21,8 @@ h1 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #fff;
-}h2 {
-    font-size: 23px;
-    margin-bottom: 20px;
-    color: #000000;
-    text-align: left;
-}#results {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #000000;
-    text-align: center;
-}input {
+}
+input {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -47,14 +38,17 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-.hide{
-    width: 300px;
-    text-align: center;
+#saida{
+    width: 400px;
+    text-align: CENTER;
     margin-top: 20px;
-    background: #fffefe;
+    background: #fff;
     color: #333;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.hide{
+    display: none;
 
 }
-
