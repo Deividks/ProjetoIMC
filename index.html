@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Projeto_IMC</title>
-  </head>
-  <body>
-    <div id="entrada">
-      <h1>Calculo do IMC</h1>
-      <input type="text" name="Peso" placeholder="Digite seu peso (kg)" />
-      <input type="text" name="Altura" placeholder="Digite sua altura (m)" />
-      <button type="submit">Calcular</button>
+    </head>
+    <body>
+
+    <div id="entrada" class="main">
+    
+    <h1>Calculo do IMC</h1>
+    <input type="text" name="Peso" placeholder="Digite seu peso (kg)" />
+    <input type="text" name="Altura" placeholder="Digite sua altura (m)" />
+    <button type="submit">Calcular</button>
     </div>
     <br />
-    <div id="saida" class="hide" ></div>
-        <!--tag <p> para criar a lista-->
+    
+    <div id="saida" class="hide" >
+    <label for="input-peso">Peso (kg):</label>
+    <input type="text">
+    <label for="input-altura"> Altura (m):</label>
+    <input type="text">
     </div>
-  </body>
+    <div id="results"></div>
+    </body>
 </html>
