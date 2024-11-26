@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./script.js"></script>
     <title>Projeto_IMC</title>
   </head>
   <body>
     <div id="entrada">
       <h1>Calculo do IMC</h1>
-      <input type="text" name="Peso" placeholder="Digite seu peso (kg)" />
-      <input type="text" name="Altura" placeholder="Digite sua altura (m)" />
-      <button type="submit">Calcular</button>
+      <input id="peso" type="text" placeholder="Digite seu peso (kg)" />
+      <input id="altura" placeholder="Digite sua altura (m)" />
+      <button id="bnt" type="submit">Calcular</button>
     </div>
-    <br />
-    <div id="saida" class="hide" ></div>
+    <br>
+    <div id="saida" class="hide"></div>
         <!--tag <p> para criar a lista-->
     </div>
   </body>
