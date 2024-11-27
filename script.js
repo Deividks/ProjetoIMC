@@ -7,7 +7,7 @@ bntCalculo.addEventListener('click' , ()=>{
     const inputAltura = Number(document.querySelector("#altura").value)
 
     if(inputPeso == "" || inputAltura == "") {
-        alert("Informe os dois valores!")
+        return alert("Informe os dois valores!")
     }else {
 
         const total = inputPeso/ (inputAltura * inputAltura)
